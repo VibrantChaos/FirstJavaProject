@@ -26,7 +26,7 @@ class Calc{
             case "divide":
             fNumber = Integer.parseInt(JOptionPane.showInputDialog("Enter First Number: "));
             sNumber = Integer.parseInt(JOptionPane.showInputDialog("Enter Second Number: "));
-            solve = fNumber * sNumber;
+            solve = fNumber / sNumber;
             JOptionPane.showMessageDialog(null, "Your Solution Is: "+ solve);
             answer = JOptionPane.showInputDialog("Use Again? Type Yes or No");
             if(answer == "Yes"){
